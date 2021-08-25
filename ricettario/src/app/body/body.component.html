@@ -1,0 +1,6 @@
+<div class="body">
+    queste sono le ricette: 
+    <div *ngFor="let ricetta of ricette;">
+        {{ricetta.nome}} <div (click)="elimina()">elimina ricetta</div>
+    </div>
+</div>
